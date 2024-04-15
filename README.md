@@ -1,8 +1,9 @@
-# Docker + Wordpress + Mysql + Pma
-### Ports:
-- 8801:phpmyadmin
-- 8800:wordpress
-- 3306:mysql
+# Docker + Wordpress + Mysql + PhpMyAdmin
+
+```bash
+# boot
+$ docker compose up -d
+```
 
 ```bash
 # .env
